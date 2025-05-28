@@ -1,0 +1,80 @@
+.sip-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px #0002;
+  background: #e928286c;
+  transition: box-shadow 0.2s;
+}
+
+.sip-container h2 {
+  margin-bottom: 1.5rem;
+  color: #1976d2;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.sip-field {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.sip-field label {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.sip-field input[type="number"] {
+  margin-left: 0.5rem;
+  width: 120px;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #0c81f5;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.sip-field input[type="range"] {
+  width: 100%;
+  margin-top: 0.5rem;
+  accent-color: #1976d2;
+}
+
+.sip-range-label {
+  font-size: 12px;
+  color: #888;
+  margin-top: 0.2rem;
+}
+
+.sip-summary {
+  background: #71f00f;
+  padding: 1.2rem;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.sip-summary strong {
+  color: #1976d2;
+}
+
+.sip-summary span {
+  color: #1976d2;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .sip-container {
+    padding: 1rem 0.5rem;
+    max-width: 98vw;
+  }
+  .sip-field input[type="number"] {
+    width: 90px;
+  }
+  .sip-summary {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}
