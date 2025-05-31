@@ -1,11 +1,17 @@
 import "./App.css";
+import Section from "./components/section";
+import { TodoApp } from "./components/SimpleTodo/todo";
 import SipCalculator from "./components/sipcalculator";
+import TodoAppWithContextApi from "./components/todoWithContexApi/todoWithContexApi";
+import TodoAppWithRedux from "./components/todoWithRedux/todoWithRedux";
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
+      <TodoApp />
       <SipCalculator />
+      <TodoAppWithContextApi />
+      <TodoAppWithRedux />
     </>
   );
 }
